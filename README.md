@@ -4,11 +4,9 @@
 
 An interactive AI-powered application designed to explore Formula 1 race data, analyze strategic decisions, and support race strategy evaluation through data analytics, machine learning, and simulation.
 
-\<p align="center">
 
 **🏁 [LAUNCH LIVE APPLICATION](https://fomula-1-decision-support-system.streamlit.app/)**
 
-\</p>
 
 ---
 
@@ -67,8 +65,6 @@ Formula 1 data and related trademarks belong to their respective owners. This pr
 
 ---
 
-\<p align="center">
 
 **Built with Python, data analytics, and a passion for Formula 1. 🏎️**
 
-\</p>
