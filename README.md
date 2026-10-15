@@ -1,115 +1,74 @@
 # 🏎️ F1 AI Race Strategy Decision Support System
 
-An AI-powered Formula 1 race strategy application designed to analyze race data, explore tyre strategies, and support data-driven strategic decisions through an interactive dashboard.
+### Data-Driven Insights for Formula 1 Race Strategy
+
+An interactive AI-powered application designed to explore Formula 1 race data, analyze strategic decisions, and support race strategy evaluation through data analytics, machine learning, and simulation.
+
+\<p align="center">
+
+**🏁 [LAUNCH LIVE APPLICATION](https://fomula-1-decision-support-system.streamlit.app/)**
+
+\</p>
+
+---
 
 ## 📌 Overview
 
-The **F1 AI Race Strategy Decision Support System** combines Formula 1 telemetry and race data with data analysis, machine learning, and simulation techniques to explore potential race strategies.
+The **F1 AI Race Strategy Decision Support System** brings data-driven analysis to Formula 1 race strategy.
 
-The project aims to make race strategy analysis more accessible through an interactive Streamlit dashboard.
+The application combines Formula 1 session data, analytical techniques, and strategy simulation capabilities in an interactive dashboard. It aims to make race strategy insights easier to explore and understand through a unified interface.
 
-## ✨ Features
+## ✨ Key Features
 
-- **Formula 1 Data Integration:** Access race and session data using FastF1.
-- **Interactive Dashboard:** Explore race strategy information through Streamlit.
-- **Data Analysis:** Process and analyze data using Pandas and NumPy.
-- **Machine Learning:** Support model-based analysis using scikit-learn, where implemented.
-- **Strategy Simulation:** Explore possible strategy outcomes using simulation techniques, where implemented.
-- **Data Visualization:** Present insights through interactive charts and visualizations.
+- **Formula 1 Data Analysis** — Work with race and session data using FastF1.
+- **Interactive Dashboard** — Explore strategic insights through a Streamlit-powered interface.
+- **Data-Driven Decision Support** — Apply analytical and machine learning techniques to support strategy evaluation.
+- **Race Strategy Simulation** — Explore possible strategic scenarios using simulation methods where available.
+- **Data Visualization** — Present race information and analytical results through charts and visualizations.
+
+*Feature availability and outputs depend on the data and models integrated into the application.*
+
+## 🧠 Project Objective
+
+The objective is to explore how data analytics and AI techniques can assist in understanding Formula 1 race strategy, evaluating possible decisions, and interpreting the factors that influence race outcomes.
+
+The project demonstrates the potential of combining motorsport data with computational analysis in a practical decision-support application.
 
 ## 🛠️ Technology Stack
 
-- Python
-- Streamlit
-- FastF1
-- Pandas
-- NumPy
-- Scikit-learn
-- Matplotlib
-- Plotly
-- SciPy
-- Joblib
+| Technology          | Purpose                                |
+| ------------------- | -------------------------------------- |
+| Python              | Core application logic                 |
+| Streamlit           | Interactive web application            |
+| FastF1              | Formula 1 session data                 |
+| Pandas & NumPy      | Data processing and numerical analysis |
+| Scikit-learn        | Machine learning                       |
+| Plotly & Matplotlib | Data visualization                     |
+| SciPy               | Scientific computing                   |
+| Joblib              | Model and artifact loading             |
 
-## 📁 Project Structure
+## 🏁 Live Application
 
-The project structure may vary depending on the existing files. Update this section to match your actual folders and modules.
+Explore the application directly through the deployed web interface.
 
-```text
-F1 Major Project/
-├── src/
-│   └── dashboard/
-│       └── app.py
-├── requirements.txt
-├── README.md
-└── .gitignore
-```
+[**Open the F1 AI Race Strategy Dashboard →**](https://fomula-1-decision-support-system.streamlit.app/)
 
-## ⚙️ Installation
+No local setup is required to access the hosted application.
 
-### 1. Clone the repository
+## 👨‍💻 Author
 
-```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
-cd "F1 Major Project"
-```
+**Pratham Ahuja**
 
-### 2. Create a virtual environment
+## 📄 Disclaimer
 
-Windows PowerShell:
+This project is intended for educational, analytical, and demonstration purposes. Its outputs should not be interpreted as official Formula 1 strategy recommendations or predictions.
 
-```powershell
-python -m venv venv
-.\venv\Scripts\Activate.ps1
-```
+Formula 1 data and related trademarks belong to their respective owners. This project is independent and is not affiliated with or endorsed by Formula 1 or the FIA.
 
-### 3. Install dependencies
+---
 
-```bash
-python -m pip install -r requirements.txt
-```
+\<p align="center">
 
-## ▶️ Run the Application
+**Built with Python, data analytics, and a passion for Formula 1. 🏎️**
 
-From the project root, activate your virtual environment and run:
-
-```bash
-python -m streamlit run src/dashboard/app.py
-```
-
-Streamlit will provide a local URL, usually `http://localhost:8501`, where you can access the dashboard.
-
-## 📊 Data and Models
-
-The application may use Formula 1 session data, processed datasets, trained machine learning models, or simulation outputs.
-
-Ensure any required model files and configuration are available before running the application. Follow the project's data-source terms and any applicable licensing requirements.
-
-## ☁️ Deployment
-
-The application is intended to be deployable on Streamlit Community Cloud.
-
-1. Push the project to a GitHub repository.
-2. Open [Streamlit Community Cloud](https://share.streamlit.io/).
-3. Connect your GitHub account and select the repository.
-4. Select the correct branch and Streamlit entry-point file.
-5. Deploy the application.
-
-Additional configuration may be required if the project relies on local model files, external data, or secrets.
-
-## 🔒 Security
-
-- Do not commit API keys, credentials, or private configuration files.
-- Keep virtual environments and Python cache files out of version control.
-- Store secrets using Streamlit's secrets management when required.
-
-## 🚧 Project Status
-
-This project is under development. Features and documentation may evolve as the application is tested and prepared for deployment.
-
-## 👤 Author
-
-## Pratham Ahuja
-
-## 📄 License
-
-A license has not yet been specified. Add a license before distributing the project if required.
+\</p>
