@@ -50,8 +50,12 @@ st.set_page_config(
     layout="wide"
 )
 
-fastf1.Cache.enable_cache("cache")
+from pathlib import Path
 
+CACHE_DIR = Path("cache")
+CACHE_DIR.mkdir(parents=True, exist_ok=True)
+
+fastf1.Cache.enable_cache(str(CACHE_DIR.resolve()))
 
 # =========================================================
 # SESSION STATE INIT
